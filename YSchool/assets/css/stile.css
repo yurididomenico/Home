@@ -1,0 +1,272 @@
+/* selettore
+{
+  proprieta: valore;
+} */
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body
+{
+  font-family: 'Questrial', sans-serif;
+}
+a
+{
+  text-decoration: none;
+}
+#pagina_corrente
+{
+  background-color: #04aa6d;
+}
+/* ______Intestazione________________________________________________________ */
+header
+{
+  float: left;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+}
+header img
+{
+  margin:0.5vw 1vw 0 1vw;
+  width: 100%;
+  float: left;
+  width: 60px;
+}
+header a
+{
+  color: black;
+  font-size: 1vw;
+  padding: 1.4vw 0.7vw;
+  margin: 0 0.2vw;
+  float: left;
+}
+header img:hover
+{
+  opacity: 90%;
+}
+.frecciagiu
+{
+  transform: translate(-0.4vw, 0.2vw);
+}
+.frecciagiunascosta
+{
+  color: white;
+}
+header a:hover
+{
+  background-color: #04aa6d;
+  color: white;
+}
+a:hover .frecciagiunascosta
+{
+  color: #04aa6d;
+}
+.left
+{
+  width: 40%;
+  float: left;
+}
+.right
+{
+  width: 25%;
+  float: right;
+}
+.bottone
+{
+  border-radius: 20px;
+  padding: 0.4vw 0.5vw;
+  margin: 1.2vw 0.3vw;
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+.pro
+{
+  background-color: black;
+  color: white;
+}
+.new
+{
+  padding: 0.3vw 0.4vw;
+  background-color: white;
+  color: black;
+  font-size: 0.7vw;
+}
+.certificazione
+{
+  background-color: #ffc0c7;
+}
+.accedi
+{
+  background-color: #04aa6d;
+  color: white;
+}
+.accedi:hover
+{
+  background-color: #04886d;
+}
+
+/* ______Navigazione_________________________________________________________ */
+nav
+{
+  background-color: #282a35;
+  color: white;
+  float: left;
+  width: 100%;
+  position: fixed;
+  margin: 4.5vw 0 0;
+}
+nav i
+{
+  float: left;
+  font-size: 2vw;
+  padding: 0.58vw;
+}
+nav li
+{
+  float: left;
+  font-size: 0.8vw;
+  font-weight: bold;
+  margin: 0 0.2vw;
+  padding: 0.6vw;
+}
+nav li:hover, nav i:hover
+{
+  background-color: #aaa;
+  color: black;
+}
+/* ______Principale__________________________________________________________ */
+.menu_sx_contenitore
+{
+  /* margin: 7vw 0 0 0; */
+  position: fixed;
+  top: 14.5%;
+  float: left;
+}
+.menu_sx
+{
+  padding: 0.5vw;
+  width: 12vw;
+  height: 85.5vh;
+  overflow-y: auto;
+  background-color: #e7e9eb;
+  float: left;
+}
+.menu_sx a
+{
+  display: block;
+}
+.menu_sx a:hover
+{
+  background-color: #ccc;
+}
+.main
+{
+  position: sticky;
+  margin: 4.5vw 0 0;
+  float: left;
+  padding: 2vw 1vw 1vw 13vw;
+  width: 80vw;
+}
+.main section
+{
+  width: 100%;
+  float: left;
+  margin: 1vw 0 2vw;
+}
+.main_bottone
+{
+  width: 7vw;
+  padding: 0.8vw;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 10px;
+}
+.main_bottone:hover, .prova_bottone:hover
+{
+  background-color: #059862;
+}
+.main_bottone h6
+{
+  text-align: center;
+}
+.sx
+{
+  float: left;
+}
+.dx
+{
+  float: right;
+}
+.prova
+{
+  background-color: #c7ccd1;
+  padding: 1vw 1vw 0;
+  border-radius: 5px;
+  margin: 1vw 0;
+  width: 100%;
+  display: table;
+}
+.prova_codice
+{
+  /* background-color: #fff; */
+  background-color: #282c34;
+  color: #9398a5;
+  border-radius: 5px;
+  font-size: 0.8vw;
+}
+.prova_codice span
+{
+  color: #df6a76;
+}
+.prova_codice p
+{
+  font-weight: 400;
+}
+.prova_codice_livello1
+{
+  margin: 0 1vw;
+}
+.prova_codice_livello2
+{
+  margin: 0 2vw;
+}
+.prova_bottone
+{
+  width: 7vw;
+  padding: 0.7vw;
+  margin: 0.5vw 0;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+header, nav, .menu_sx, .menu_sx_contenitore
+{
+  z-index: 1;
+}
+.main
+{
+  z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+aside
+{
+
+}
