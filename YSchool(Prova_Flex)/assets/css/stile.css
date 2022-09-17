@@ -77,6 +77,10 @@ img
   text-align: center;
 }
 /* Padding */
+.pad-xs
+{
+  padding: 0.5vw;
+}
 .pad-s
 {
   padding: 1vw;
@@ -89,7 +93,32 @@ img
 {
   padding: 3vw;
 }
+/* Padding laterale */
+.x-pad-xs
+{
+  padding: 0 0.5vw;
+}
+.x-pad-s
+{
+  padding: 0 1vw;
+}
+.x-pad-m
+{
+  padding: 0 2vw;
+}
+.x-pad-l
+{
+  padding: 0 3vw;
+}
 /* margin laterale */
+.x-mar-xxs
+{
+  margin: 0 0.3vw;
+}
+.x-mar-xs
+{
+  margin: 0 0.5vw;
+}
 .x-mar-s
 {
   margin: 0 1vw;
@@ -115,23 +144,23 @@ img
   margin: 3vw 0;
 }
 /* Border Radius */
-.borad-s
+.borag-s
 {
   border-radius: 5px;
 }
-.borad-m
+.borag-m
 {
   border-radius: 10px;
 }
-.borad-l
+.borag-l
 {
   border-radius: 20px;
 }
-.borad-xl
+.borag-xl
 {
   border-radius: 40px;
 }
-.borad-cerchio
+.borag-cerchio
 {
   border-radius: 50%;
 }
@@ -147,7 +176,26 @@ img
 {
   border: 3px solid black;
 }
-
+.font-xs
+{
+  font-size: 0.8rem;
+}
+.font-s
+{
+  font-size: 1rem;
+}
+.font-m
+{
+  font-size: 1.2rem;
+}
+.font-l
+{
+  font-size: 1.4rem;
+}
+.font-xl
+{
+  font-size: 2rem;
+}
 /* |||||||||| AREA SET |||||||||| */
 
 /* |||||||||| INIZIO |||||||||| */
@@ -170,44 +218,65 @@ header
 header li > a
 {
   display: block;
-  padding: 2rem 1rem;
 }
 .header-logo
 {
   width: 50px;
-
 }
-/* .sezione img
-{
-  width: 8vh;
-}
-.sezione span
-{
-  font-weight: 500;
-  font-size: 1.2rem;
-}
-.sezione li
+/* Sezione Sinistra */
+.sezione-sx
 {
   margin: 0 1vw;
-  height: 100%;
-} */
-.down-arrow::before
+}
+.sezione-sx li
+{
+  font-weight: 600;
+}
+.sezione-sx a
+{
+  padding: 2rem 1rem;
+}
+.down-arrow::after
 {
   content: '\25BE';
 }
-.verde
+/* Sezione Destra */
+.sezione-dx li
 {
-  background-color: #08aa70;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
-/* .header-contenitore
+.btn-new
 {
-  height: 8vh;
-} */
+  padding: 0.3vw;
+}
+/* colori */
+.sfondo-nero
+{
+  background-color: black;
+}
+.sfondo-rosa
+{
+  background-color: #ffc0c7;
+}
+.sfondo-verde
+{
+  background-color: #04aa6d;
+}
+.sfondo-bianco
+{
+  background-color: white;
+}
+.testo-bianco
+{
+  color: white;
+}
 
 /* hover */
-header li > a:hover
+.sezione-sx a:hover, .btn-sitoweb:hover
 {
   background-color: #08aa70;
+  color: white;
 }
 
 /* |||||||||| AREA TEST |||||||||| */
