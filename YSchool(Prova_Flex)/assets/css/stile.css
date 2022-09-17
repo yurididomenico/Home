@@ -8,24 +8,22 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
-  color: black;
 }
 img
 {
   display: block;
+}
+a
+{
+  color: black;
 }
 /* |||||||||| INIZIO |||||||||| */
 body
 {
   font-family: 'Montserrat', sans-serif;
 }
-header
-{
-    /* temporaneo */
-    /* background-color: pink; */
-    
-    /* ---------- */
-}
+
+/* |||||||||| HEADER |||||||||| */
 .container
 {
   width: 98%;
@@ -102,6 +100,13 @@ header li > a
 {
   opacity: 90%;
 }
+
+/* |||||||||| NAV |||||||||| */
+.nav-lista li
+{
+  padding: 0.8vw
+}
+
 /* |||||||||| AREA TEST |||||||||| */
 
 

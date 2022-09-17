@@ -37,6 +37,23 @@
 {
   padding: 0 3vw;
 }
+/* Padding verticale */
+.y-pad-xs
+{
+  padding: 0.5vw 0;
+}
+.y-pad-s
+{
+  padding: 1vw 0;
+}
+.y-pad-m
+{
+  padding: 2vw 0;
+}
+.y-pad-l
+{
+  padding: 3vw 0;
+}
 /* margin laterale */
 .x-mar-xxs
 {
