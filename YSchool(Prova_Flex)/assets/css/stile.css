@@ -26,8 +26,8 @@ body
 /* |||||||||| HEADER |||||||||| */
 header
 {
-  font-size: 1.2rem;
-  font-weight: 500;
+  
+  font-weight: 600;
 }
 .header-img
 {
@@ -36,21 +36,38 @@ header
   background-size: contain;
   width: 60px;
   aspect-ratio: 1/1;
+  margin: 0 1vw;
 }
 .header-links li
 {
-  margin: 0 1.5vw;
+  margin: 0 1vw;
 }
 .arrow-down::after
 {
   content: '\25BE';
 }
-
-
+.header-a-padding
+{
+  padding: 1.3vw 0;
+}
 /* |||||||||| NAV |||||||||| */
 
 
 
+
+
+
+
+
+
+
+/* |||||||||| HOVER |||||||||| */
+
+.header-sezione-left a:hover
+{
+  background-color: #08aa70;
+  color: white;
+}
 /* |||||||||| AREA TEST |||||||||| */
 
 

@@ -51,3 +51,11 @@
 {
   align-content: center;
 }
+.flex-stretch
+{
+  align-items: stretch;
+}
+.grow
+{
+  flex-grow: 1;
+}
