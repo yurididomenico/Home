@@ -79,12 +79,24 @@ header
 }
 
 /* |||||||||| NAV |||||||||| */
-
-.nav-links li
+nav
 {
-  margin: 1vw;
-}
+  background-color: black;
+  font-weight: 600;
 
+}
+nav a
+{
+  color: white;
+}
+.nav-links-left li, .nav-links-right li
+{
+  margin: 0.6vw 0.8vw;
+}
+.nav-links-right
+{
+  font-size: 1.2rem;
+}
 
 
 
