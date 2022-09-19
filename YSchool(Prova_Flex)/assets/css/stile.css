@@ -24,7 +24,27 @@ body
 }
 
 /* |||||||||| HEADER |||||||||| */
-
+header
+{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.header-img
+{
+  background-image: url('../img/favYconStatic3.ico');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60px;
+  aspect-ratio: 1/1;
+}
+.header-links li
+{
+  margin: 0 1.5vw;
+}
+.arrow-down::after
+{
+  content: '\25BE';
+}
 
 
 /* |||||||||| NAV |||||||||| */
