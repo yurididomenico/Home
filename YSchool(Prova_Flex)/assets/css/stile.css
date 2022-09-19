@@ -24,88 +24,12 @@ body
 }
 
 /* |||||||||| HEADER |||||||||| */
-.container
-{
-  width: 98%;
-  margin-inline: auto;
-}
-header li > a
-{
-  display: block;
-}
-.header-logo
-{
-  width: 50px;
-}
-/* Sezione Sinistra */
-.sezione-sx
-{
-  margin: 0 1vw;
-}
-.sezione-sx li
-{
-  font-weight: 600;
-}
-.sezione-sx a
-{
-  padding: 1.5rem 1rem;
-}
-.down-arrow::after
-{
-  content: '\25BE';
-}
-/* Sezione Destra */
-.sezione-dx li
-{
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-.btn-new
-{
-  padding: 0.3vw;
-}
-/* colori */
-.sfondo-nero
-{
-  background-color: black;
-}
-.sfondo-rosa
-{
-  background-color: #ffc0c7;
-}
-.sfondo-verde
-{
-  background-color: #04aa6d;
-}
-.sfondo-bianco
-{
-  background-color: white;
-}
-.testo-bianco
-{
-  color: white;
-}
 
-/* hover */
-.sezione-sx a:hover, .btn-greenhover:hover
-{
-  background-color: #08aa70;
-  color: white;
-}
-.btn-darkgreenhover:hover
-{
-  background-color: #04886d;
-}
-.header-logo:hover
-{
-  opacity: 90%;
-}
+
 
 /* |||||||||| NAV |||||||||| */
-.nav-lista li
-{
-  padding: 0.8vw
-}
+
+
 
 /* |||||||||| AREA TEST |||||||||| */
 
