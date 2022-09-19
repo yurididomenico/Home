@@ -18,12 +18,14 @@ a
   color: black;
 }
 /* |||||||||| INIZIO |||||||||| */
+
 body
 {
   font-family: 'Montserrat', sans-serif;
 }
 
 /* |||||||||| HEADER |||||||||| */
+
 header
 {
   
@@ -38,7 +40,7 @@ header
   aspect-ratio: 1/1;
   margin: 0 1vw;
 }
-.header-links li
+.header-sezione-left .header-links li
 {
   margin: 0 1vw;
 }
@@ -46,13 +48,42 @@ header
 {
   content: '\25BE';
 }
-.header-a-padding
+.header-sezione-left .header-links a
 {
   padding: 1.3vw 0;
 }
+.header-sezione-right .header-links a
+{
+  padding: 0.6vw;
+  margin: 0 0.4vw;
+  border-radius: 30px;
+}
+
+.btn-pro
+{
+  background-color: black;
+  color: white;
+}
+.btn-cert
+{
+  background-color: #ffc0c7;
+}
+.btn-siteweb
+{
+  background-color: #fff4a3;
+}
+.btn-login
+{
+  background-color: #04aa6d;
+  color: white;
+}
+
 /* |||||||||| NAV |||||||||| */
 
-
+.nav-links li
+{
+  margin: 1vw;
+}
 
 
 
